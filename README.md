@@ -1,8 +1,6 @@
 # Unity Pixel Monster Maker using SDFs
 
-<video src="imgs/ex1.mp4" controls="controls" style="max-width: 720px;">
-Your browser does not support the video tag.
-</video>
+<img src="imgs/ex1.gif" alt="Example Monster">
 
 This repository hosts the Unity Pixel Monster Maker project, an innovative approach to creating and rendering pixelated monsters using Signed Distance Functions (SDFs) within Unity's Built-In Render Pipeline.
 
