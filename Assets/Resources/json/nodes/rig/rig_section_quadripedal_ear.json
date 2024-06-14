@@ -1,0 +1,80 @@
+{
+    "name": "rig_section_quadripedal_ear",
+    "inherit_from": "rig_section",
+    "actors": {
+        "rig_section_ik": {
+            "name": "rig_section_quadripedal_ear",
+            "origin": [0.0,0.0,0.0],
+            "target": [0.3,0.2,-0.2],
+            "pole_offset": [1.0,0.0,-0.5],
+            "lengths_base": [0.0,0.5,0.5],
+            "is_local_ik": true
+        },
+        "ability_rig_idle": {
+            "name": "rig_idle",
+            "priority": 2,
+            "is_root": false,
+            "is_target": true,
+            "direction": -1,
+            "height": 0.1,
+            "axes": "z"
+        }
+    },
+    "children": {
+        "arm_end": {
+            "inherit_from": "rig_arm_no_bone",
+            "actors": {
+                "sdf_surface": {
+                    "shape_type": "sphere",
+                    "blend": 0.2,
+                    "blend_mode": "union_smooth",
+                    "color": "#c3bd6e",
+                    "scale": [1.0, 1.0, 0.5],
+                    "radius": 0.22
+                }
+            },
+            "children": {
+            }
+        },
+        "arm_mid": {
+            "inherit_from": "rig_arm",
+            "children": {
+                "rig_arm_bone": {
+                    "name": "bone",
+                    "actors": {
+                        "point": {
+                            "is_local": true
+                        },
+                        "sdf_surface": {
+                            "shape_type": "cylinder",
+                            "blend": 0.2,
+                            "color": "#c3bd6e",
+                            "scale": [1.0, 1.0, 1.0],
+                            "radius": 0.1
+                        }
+                    }
+                }
+            }
+        },
+        "arm_root": {
+            "inherit_from": "rig_arm",
+            "children": {
+                "rig_arm_bone": {
+                    "name": "bone",
+                    "actors": {
+                        "point": {
+                            "is_local": true
+                        },
+                        "sdf_surface": {
+                            "shape_type": "cylinder",
+                            "blend": 0.2,
+                            "color": "#c3bd6e",
+                            "scale": [1.0, 1.0, 1.0],
+                            "radius": 0.1
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

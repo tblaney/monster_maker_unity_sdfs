@@ -1,0 +1,29 @@
+{
+    "actors": {
+        "rig": {
+            "args": {
+                "scale": [0.8, 0.8, 0.8],
+                "scale_bones": [1.0, 1.0, 1.0]
+            },
+            "is_random": true
+        },
+        "abilities_ticker": {
+            "is_log": true
+        },
+        "ability_idle": {
+            "name": "idle"
+        },
+        "ability_follow_sibling": {
+            "name": "follow",
+            "priority": 3,
+            "sibling": "rig_quad",
+            "movement_speed": 12.0,
+            "rotation_speed": 4.0
+        }
+    },
+    "children": {
+        "rig_section_back": {
+            "inherit_from": "rig_section_quadripedal_back"
+        }
+    }
+}

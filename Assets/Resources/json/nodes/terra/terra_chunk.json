@@ -1,0 +1,14 @@
+{
+    "layer": 6,
+    "actors": { 
+        "scene_pass_terra": {
+
+        },
+        "terra_module": {
+            
+        }
+    },
+    "children": {
+        
+    }
+}

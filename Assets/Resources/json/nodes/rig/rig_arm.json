@@ -1,0 +1,37 @@
+{
+    "name": "rig_arm",
+    "actors": {
+        "rig_arm": {
+            "index": 0,
+            "length": 0.5
+        },
+        "point": {
+            "is_local": true
+        },
+        "sdf_surface": {
+            "shape_type": "sphere",
+            "blend": 0.5,
+            "color": "#c3bd6e",
+            "scale": [1.0, 1.0, 1.0],
+            "radius": 0.1
+        }
+    },
+    "children": {
+        "rig_arm_bone": {
+            "name": "bone",
+            "actors": {
+                "point": {
+                    "is_local": true
+                },
+                "sdf_surface": {
+                    "shape_type": "cylinder",
+                    "blend": 0.2,
+                    "color": "#c3bd6e",
+                    "scale": [1.0, 1.0, 1.0],
+                    "radius": 0.1,
+                    "has_collider": false
+                }
+            }
+        }
+    }
+}

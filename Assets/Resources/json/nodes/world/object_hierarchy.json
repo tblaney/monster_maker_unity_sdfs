@@ -1,0 +1,1776 @@
+{
+    "scene": {
+        "actors": {},
+        "children": {
+            "locations": {
+                "actors": {},
+                "children": {
+                    "loi_player_spawn": {
+                        "actors": {
+                            "location": {
+                                "location_name": "player_spawn"
+                            }
+                        },
+                        "children": {}
+                    }
+                }
+            },
+            "props": {
+                "actors": {},
+                "children": {
+                    "prop_bridges": {
+                        "actors": {},
+                        "children": {
+                            "prop_bridge_(-15.71_245.94_-8.61)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_bridge_(105.35_20.28_-5.93)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_bridge_(125.20_69.01_7.64)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_bridge_(162.49_79.74_9.06)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_bridge_(17.44_204.39_6.46)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_bridge_(176.67_28.93_-7.37)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_bridge_(27.49_157.74_6.46)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_bridge_(52.85_253.53_-1.20)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_bridge_(57.35_6.03_-8.76)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_bridge_roof": {
+                                "actors": {},
+                                "children": {}
+                            }
+                        }
+                    },
+                    "prop_fences": {
+                        "actors": {},
+                        "children": {
+                            "prop_farm_fence": {
+                                "actors": {},
+                                "children": {}
+                            }
+                        }
+                    },
+                    "prop_generators": {
+                        "actors": {},
+                        "children": {
+                            "prop_generator_(255.56_278.50_75.30)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_generator_(258.56_73.00_99.30)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_generator_(63.35_64.53_30.30)": {
+                                "actors": {},
+                                "children": {}
+                            }
+                        }
+                    },
+                    "prop_grass": {
+                        "actors": {},
+                        "children": {
+                            "prop_terrain_chunk_0_0_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_0_1_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_0_2_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_0_3_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_1_0_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_1_1_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_1_2_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_1_3_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_2_0_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_2_1_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_2_2_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_2_3_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_3_0_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_3_1_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_3_2_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_terrain_chunk_3_3_grass_plane": {
+                                "actors": {},
+                                "children": {}
+                            }
+                        }
+                    },
+                    "prop_light_poles": {
+                        "actors": {},
+                        "children": {
+                            "prop_light_bracket": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(103.00_317.00_19.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(125.00_361.00_27.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(137.00_299.00_27.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(147.00_391.00_27.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(183.00_371.00_15.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(197.00_325.00_43.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(235.00_115.00_11.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(249.00_321.00_59.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(257.00_107.00_11.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(285.00_153.00_27.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(289.00_183.00_29.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(299.00_205.00_31.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(307.00_71.00_15.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(321.00_277.00_55.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(341.00_111.00_13.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(351.00_267.00_47.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(367.00_205.00_31.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(367.00_279.00_27.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_light_pole_03_(51.00_333.00_25.98)": {
+                                "actors": {},
+                                "children": {}
+                            }
+                        }
+                    },
+                    "prop_pillar": {
+                        "actors": {},
+                        "children": {
+                            "prop_pillar_(113.50_20.08_-11.19)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_pillar_(199.72_138.18_10.53)": {
+                                "actors": {},
+                                "children": {}
+                            }
+                        }
+                    },
+                    "prop_power_lines": {
+                        "actors": {},
+                        "children": {
+                            "prop_power_lines_(11.08_191.88_13.94)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_lines_(130.09_56.06_24.67)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_lines_(147.36_179.37_42.98)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_lines_(156.35_64.53_19.80)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_lines_(187.85_43.57_43.05)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_lines_(24.35_18.27_4.53)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_lines_(39.46_197.36_23.01)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_lines_(4.55_224.93_13.94)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_lines_(55.81_234.97_7.94)": {
+                                "actors": {},
+                                "children": {}
+                            }
+                        }
+                    },
+                    "prop_power_poles": {
+                        "actors": {},
+                        "children": {
+                            "prop_power_pole_(117.36_178.30_39.65)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(12.36_193.30_15.65)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(130.11_56.05_20.66)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(153.36_88.30_18.65)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(168.36_118.30_36.65)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(168.36_146.80_36.65)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(177.36_-12.20_2.15)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(196.86_14.80_8.15)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(24.36_18.29_1.91)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(25.86_233.80_15.65)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(39.36_199.30_24.65)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(51.36_32.80_4.16)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(55.86_236.80_9.65)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(6.36_224.80_15.65)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(70.86_170.80_30.65)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(72.36_52.30_4.16)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(73.86_199.30_24.65)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_(95.61_63.55_12.41)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_large_(147.35_175.53_29.01)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_large_(168.35_100.53_11.01)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_power_pole_large_(192.35_43.53_29.01)": {
+                                "actors": {},
+                                "children": {}
+                            }
+                        }
+                    },
+                    "prop_ramp": {
+                        "actors": {},
+                        "children": {}
+                    },
+                    "prop_roads": {
+                        "actors": {},
+                        "children": {
+                            "prop_road_01": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            }
+                        }
+                    },
+                    "prop_stairs": {
+                        "actors": {},
+                        "children": {
+                            "prop_stairs_(-4.13_199.52_2.83)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(107.95_172.64_27.25)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(136.87_89.28_7.33)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(144.37_54.33_5.83)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(145.61_89.17_6.25)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(155.74_58.40_6.25)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(156.31_155.17_27.25)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(158.02_-11.94_-5.75)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(163.87_2.28_-4.67)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(165.16_43.31_-4.30)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(168.37_18.03_-6.17)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(177.17_122.17_24.25)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(184.81_121.32_21.25)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(199.21_150.45_5.83)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(201.81_136.47_13.39)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(204.54_95.17_6.25)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(3.93_181.19_0.25)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(30.76_246.29_-7.64)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(30.76_250.06_-6.14)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(30.76_254.56_-4.64)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(34.36_255.02_-3.17)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(38.85_253.52_-1.67)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(40.87_229.52_4.33)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(56.20_193.19_7.75)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(56.32_185.73_5.83)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(58.80_219.16_-2.75)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(59.37_194.28_10.33)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(60.70_202.19_12.25)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(7.87_199.52_4.33)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(74.95_186.14_15.25)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(78.30_256.64_-2.75)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(79.12_21.05_-9.17)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(80.95_169.64_21.25)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(80.95_177.14_18.25)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_stairs_(89.95_165.14_24.25)": {
+                                "actors": {},
+                                "children": {}
+                            }
+                        }
+                    },
+                    "prop_terrains": {
+                        "actors": {
+                            "mesh_collider_module": {}
+                        },
+                        "children": {
+                            "prop_terrain_chunk_0_0": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_0_1": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_0_2": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_0_3": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_1_0": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_1_1": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_1_2": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_1_3": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_2_0": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_2_1": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_2_2": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_2_3": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_3_0": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_3_1": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_3_2": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrain_chunk_3_3": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {},
+                                "layer": 6
+                            },
+                            "prop_terrains_background": {
+                                "actors": {
+                                    "mesh_collider_module": {}
+                                },
+                                "children": {
+                                    "prop_chunk_extra_e": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_e_e": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_e_e_n": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_e_e_n_n": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_e_e_s": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_e_e_s_s": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_e_n": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_e_n_n": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_e_s": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_e_s_s": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_n": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_n_n": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_s": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_s_s": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_w": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_w_n": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_w_n_n": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_w_s": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_w_s_s": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_w_w": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_w_w_n": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_w_w_n_n": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_w_w_s": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_chunk_extra_w_w_s_s": {
+                                        "actors": {},
+                                        "children": {}
+                                    }
+                                },
+                                "layer": 6
+                            }
+                        },
+                        "layer": 6
+                    },
+                    "prop_train_rail": {
+                        "actors": {},
+                        "children": {}
+                    },
+                    "prop_trainstation_base": {
+                        "actors": {},
+                        "children": {}
+                    },
+                    "prop_water": {
+                        "actors": {},
+                        "children": {
+                            "item_water_chunk_e": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_e_e": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_e_e_n": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_e_e_n_n": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_e_e_s": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_e_e_s_s": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_e_n": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_e_n_n": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_e_s": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_e_s_s": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_n": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_n_n": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_s": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_s_s": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_w": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_w_n": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_w_n_n": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_w_s": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_w_s_s": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_w_w": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_w_w_n": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_w_w_n_n": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_w_w_s": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "item_water_chunk_w_w_s_s": {
+                                "actors": {},
+                                "children": {}
+                            }
+                        }
+                    },
+                    "prop_wheat_farm": {
+                        "actors": {},
+                        "children": {
+                            "prop_wheat_farm_env_wheat_(31.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(31.50_161.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(32.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(33.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(33.50_161.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(33.50_162.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(34.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(34.50_161.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(34.50_162.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(35.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(35.50_162.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(36.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(36.50_161.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(36.50_162.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(37.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(37.50_158.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(37.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(37.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(37.50_161.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(37.50_162.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(37.50_163.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(38.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(38.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(38.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(38.50_162.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(38.50_163.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(39.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(39.50_158.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(39.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(39.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(39.50_161.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(39.50_162.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(39.50_163.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(39.50_164.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(40.50_152.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(40.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(40.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(40.50_155.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(40.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(40.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(40.50_158.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(40.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(40.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(40.50_161.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(40.50_162.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(41.50_150.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(41.50_151.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(41.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(41.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(41.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(41.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(41.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(41.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(41.50_162.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_148.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_149.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_150.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_151.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_152.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_155.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_158.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_161.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(42.50_162.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_148.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_149.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_150.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_151.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_152.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_155.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_158.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_161.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(43.50_162.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(44.50_148.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(44.50_150.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(44.50_151.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(44.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(44.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(44.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(44.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(44.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(44.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(44.50_162.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(45.50_149.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(45.50_150.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(45.50_151.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(45.50_152.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(45.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(45.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(45.50_155.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(45.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(45.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(45.50_158.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(45.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(45.50_160.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(45.50_161.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(46.50_149.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(46.50_150.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(46.50_151.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(46.50_152.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(46.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(46.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(46.50_155.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(46.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(47.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(47.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(47.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(48.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(48.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(48.50_155.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(48.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(50.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(50.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(50.50_155.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(50.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(51.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(51.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(51.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(52.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(52.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(52.50_155.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(52.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(52.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(52.50_158.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(52.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(53.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(53.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(53.50_155.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(53.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(53.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(53.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(54.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(54.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(54.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(54.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(54.50_158.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(54.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(55.50_151.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(55.50_152.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(55.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(55.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(55.50_155.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(55.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(55.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(55.50_158.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(55.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(56.50_151.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(56.50_152.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(56.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(56.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(56.50_155.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(56.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(56.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(56.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(57.50_150.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(57.50_151.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(57.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(57.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(57.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(57.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(57.50_158.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(57.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(58.50_149.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(58.50_150.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(58.50_151.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(58.50_152.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(58.50_153.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(58.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(58.50_155.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(58.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(58.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(58.50_158.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(58.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(59.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(59.50_155.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(59.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(59.50_157.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(59.50_159.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(60.50_154.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            },
+                            "prop_wheat_farm_env_wheat_(60.50_156.50_10.00)": {
+                                "actors": {},
+                                "children": {}
+                            }
+                        }
+                    },
+                    "prop_windmills": {
+                        "actors": {},
+                        "children": {
+                            "prop_windmill_(-8.65_219.03_10.80)": {
+                                "actors": {},
+                                "children": {
+                                    "prop_windmill_spinner_(84.00_376.00_33.98)": {
+                                        "actors": {},
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "prop_windmill_(261.35_288.78_75.09)": {
+                                "actors": {},
+                                "children": {
+                                    "prop_windmill_pointer_(444.00_469.00_119.70)": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_windmill_spinner_(444.00_469.00_119.70)": {
+                                        "actors": {},
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "prop_windmill_(264.35_78.78_100.01)": {
+                                "actors": {},
+                                "children": {
+                                    "prop_windmill_pointer_(448.00_189.00_152.93)": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_windmill_spinner_(448.00_189.00_152.93)": {
+                                        "actors": {},
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "prop_windmill_(265.85_285.78_75.09)": {
+                                "actors": {},
+                                "children": {
+                                    "prop_windmill_pointer_(450.00_465.00_119.70)": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_windmill_spinner_(450.00_465.00_119.70)": {
+                                        "actors": {},
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "prop_windmill_(268.85_80.28_100.01)": {
+                                "actors": {},
+                                "children": {
+                                    "prop_windmill_pointer_(454.00_191.00_152.93)": {
+                                        "actors": {},
+                                        "children": {}
+                                    },
+                                    "prop_windmill_spinner_(454.00_191.00_152.93)": {
+                                        "actors": {},
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "prop_windmill_(55.85_65.28_33.30)": {
+                                "actors": {},
+                                "children": {
+                                    "prop_windmill_spinner_(0.00_0.00_0.00)_(0.00_0.00_0.00)_(0._(0.": {
+                                        "actors": {},
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "prop_windmill_(60.35_69.78_33.30)": {
+                                "actors": {},
+                                "children": {
+                                    "prop_windmill_spinner_(0.00_0.00_0.00)_(0.00_0.00_0.00)_(0..001": {
+                                        "actors": {},
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "prop_windmill_(64.85_69.78_33.30)": {
+                                "actors": {},
+                                "children": {
+                                    "prop_windmill_spinner_(0.00_0.00_0.00)_(0.00_0.00_0.00)_(0.": {
+                                        "actors": {},
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "prop_windmill_(67.85_72.78_33.30)": {
+                                "actors": {},
+                                "children": {
+                                    "prop_windmill_spinner_(0.00_0.00_0.00)_(0.00_0.00_0.00)_(0.00_0": {
+                                        "actors": {},
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "prop_windmill_(69.35_69.78_33.30)": {
+                                "actors": {},
+                                "children": {
+                                    "prop_windmill_spinner_(0.00_0.00_0.00)_(0.00_0.00_0.00)": {
+                                        "actors": {},
+                                        "children": {}
+                                    }
+                                }
+                            },
+                            "prop_windmill_(72.35_72.78_33.30)": {
+                                "actors": {},
+                                "children": {
+                                    "prop_windmill_spinner_(0.00_0.00_0.00)": {
+                                        "actors": {},
+                                        "children": {}
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

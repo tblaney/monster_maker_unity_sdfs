@@ -1,0 +1,7 @@
+{
+    "thread_group_size": 8,
+    "shader": "TerraCellDensity",
+    "shader_objectives": "TerraObjectives",
+    "seed": 342,
+    "sea_level": 5
+}

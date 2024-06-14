@@ -1,0 +1,13 @@
+{
+    "thread_group_size": 8,
+    "num_terrains_per_axis": 2,
+    "num_chunks": [4,4],
+    "num_points_per_axis": 257,
+    "num_objectives": 5,
+    "chunk_resolution": 256,
+    "terrain_size": 512,
+    "terrain_height": 400,
+    "material": "Terrain",
+    "terrain_layers": ["Grass"],
+    "chunk_size": 128
+}

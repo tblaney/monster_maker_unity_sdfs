@@ -1,0 +1,30 @@
+﻿static const int numThreads = 8;
+
+struct TerraNoise
+{
+    int id;
+
+    int noiseType;
+    int seed;
+
+    float frequency;
+    float weight;
+
+    int fractalType;
+    int fractalOctaves;
+    float fractalLacunarity;
+    float fractalGain;
+
+    float offset;
+
+    int isFractal;
+};
+
+float numPointsPerAxis;
+float chunkSize;
+float3 origin;
+float spacing;
+
+int indexFromCoord2(uint x, uint y) {
+    return y * numPointsPerAxis + x;
+}

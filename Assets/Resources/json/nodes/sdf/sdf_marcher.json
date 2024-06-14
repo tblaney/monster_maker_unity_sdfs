@@ -1,0 +1,21 @@
+{
+    "name": "sdf_marcher",
+    "is_prefab": true,
+    "prefab_name": "sdf_viewer",
+    "actors": {
+        "point": {
+            "scale": [1.0,1.0,1.0],
+            "is_local": true
+        },
+        "sdf_module": {
+            "material": "mat_sdf_viewer"
+        },
+        "sdf_marcher": {
+            "is_blend": true,
+            "is_outline": true
+        }
+    },
+    "children": {
+        
+    }
+}

@@ -1,0 +1,66 @@
+{
+    "actors": {
+    },
+    "children": {
+        "rig_torso": {
+            "inherit_from":"rig_section_humanoid_torso",
+            "actors": {
+                "rig_section_ik": {
+                }
+            },
+            "children": {
+                "effector_target_static": {
+                    "name": "effector_target_static",
+                    "children": {
+                        "rig_head": {
+                            "inherit_from":"rig_section_humanoid_head",
+                            "actors": {
+                                "rig_section_ik": {
+                                }
+                            },
+                            "children": {
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "rig_section_leg_r": {
+            "inherit_from":"rig_section_humanoid_leg",
+            "actors": {
+                "rig_section_ik": {
+                    "name": "rig_section_humanoid_leg_r",
+                    "direction": [1,1,1]
+                }
+            }
+        },
+        "rig_section_leg_l": {
+            "inherit_from":"rig_section_humanoid_leg",
+            "actors": {
+                "rig_section_ik": {
+                    "name": "rig_section_humanoid_leg_l",
+                    "direction": [-1,1,1]
+                }
+            }
+        },
+        "rig_section_arm_r": {
+            "inherit_from":"rig_section_humanoid_arm",
+            "actors": {
+                "rig_section_ik": {
+                    "name": "rig_section_humanoid_arm_r",
+                    "direction": [1,1,1]
+                }
+            }
+        },
+        "rig_section_arm_l": {
+            "inherit_from":"rig_section_humanoid_arm",
+            "actors": {
+                "rig_section_ik": {
+                    "name": "rig_section_humanoid_arm_l",
+                    "direction": [-1,1,1]
+                }
+            }
+        }
+    }
+}

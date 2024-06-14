@@ -1,0 +1,30 @@
+{
+    "name": "rig_arm_no_joint",
+    "actors": {
+        "rig_arm": {
+            "index": 0,
+            "length": 0.5
+        },
+        "point": {
+            "is_local": true
+        }
+    },
+    "children": {
+        "rig_arm_bone": {
+            "name": "bone",
+            "actors": {
+                "point": {
+                    "is_local": true
+                },
+                "sdf_surface": {
+                    "shape_type": "cube",
+                    "blend": 0.2,
+                    "blend_mode": "union",
+                    "radius": 0.05,
+                    "color": "#c3bd6e",
+                    "scale": [0.05, 0.1, 0.05]
+                }
+            }
+        }
+    }
+}

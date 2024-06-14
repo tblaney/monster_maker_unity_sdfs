@@ -1,0 +1,57 @@
+{
+    "is_prefab": true,
+    "prefab_name": "camera_overworld",
+    "children":
+    {
+        "camera": {
+            "actors": {
+                "point": {
+
+                },
+                "camera_module_cine": {
+                    "target": "stage_sdf.camera_sdf.camera_target",
+                    "is_follow": true,
+                    "mode": "orthographic",
+                    "orthographic_size": 12.0,
+                    "fov": 30.0
+                },
+                "camera_module": {
+                    "is_main": true,
+                    "mode": "orthographic",
+                    "orthographic_size": 12.0,
+                    "fov": 30.0
+                }
+            }
+        },
+        "camera_target": {
+            "actors":
+            { 
+                "point": {
+                },
+                "abilities_ticker": {
+
+                },
+                "ability_idle": {
+                    "name": "camera_idle"
+                },
+                "ability_camera_follow": {
+                    "name": "camera_follow",
+                    "priority": 2,
+                    "target": "stage_sdf.player",
+                    "node_camera":"stage_sdf.camera_sdf.camera",
+                    "rotation_speed": 50.0,
+                    "movement_speed": 10.0,
+                    "vertical_speed": 4.0,
+                    "is_rotate": false,
+                    "arm_height_range": [-10.0, 15.0]
+                }
+            }
+        },
+        "canvas_screen": {
+
+        },
+        "cm": {
+            
+        }
+    }
+}

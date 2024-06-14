@@ -1,0 +1,29 @@
+{
+    "name": "rig_section",
+    "actors": {
+        "point": {
+            "is_local": true
+        },
+        "rig_section_single": {
+        },
+        "abilities_ticker": {
+        },
+        "ability_idle": {
+            "name": "idle"
+        }
+    },
+    "children": {
+        "effector_root":{
+            "name": "effector_root"
+        },
+        "effector_target_static": {
+            "name": "effector_target_static"
+        },
+        "effector_pole": {
+            "name": "effector_pole"
+        },
+        "arm_root": {
+            "inherit_from": "rig_arm_no_bone"
+        }
+    }
+}

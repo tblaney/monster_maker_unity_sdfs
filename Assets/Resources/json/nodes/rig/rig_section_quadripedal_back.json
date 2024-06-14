@@ -1,0 +1,94 @@
+{
+    "actors": {
+    },
+    "children": {
+        "rig_torso_back": {
+            "inherit_from":"rig_section_quadripedal_torso",
+            "actors": {
+                "point": {
+                    "position": [0.0,0.0,0.0]
+                },
+                "rig_section_ik": {
+                }
+            },
+            "children": {
+                "effector_root":{
+                    "name": "effector_root",
+                    "children": {
+                        "rig_spines": {
+                            "inherit_from": "rig_section_spines"
+                        }
+                    }
+                },
+                "effector_target_static": {
+                    "name": "effector_target_static",
+                    "children": {
+                        "rig_tail": {
+                            "inherit_from": "rig_section_tail"
+                        }
+                    }
+                }
+            }
+        },
+        "rig_section_leg_r_2": {
+            "inherit_from":"rig_section_quadripedal_leg",
+            "actors": {
+                "point": {
+                    "position": [0.0,0.0,0.0]
+                },
+                "rig_section_ik": {
+                    "name": "rig_section_humanoid_leg_r",
+                    "direction": [1,1,1],
+                    "origin": [0.2,0.6,-0.8],
+                    "target": [0.4,0.0,-0.6],
+                    "pole_offset": [0.2,0.0,1.0],
+                    "lengths_base": [0.0,0.5,0.6],
+                    "section_origin": [0.2,0.6,-0.8]
+                },
+                "ability_rig_walk": {
+                    "walk_check_name": "is_walk_back",
+                    "is_input_cap": true,
+                    "input_cap": 0.3
+                },
+                "ability_rig_gallop": {
+                    "name": "rig_gallop",
+                    "priority": 4,
+                    "time": 0.2,
+                    "threshold": 1.2,
+                    "is_root": true,
+                    "walk_check_name": "is_gallop_front"
+                }
+            }
+        },
+        "rig_section_leg_l_2": {
+            "inherit_from":"rig_section_quadripedal_leg",
+            "actors": {
+                "point": {
+                    "position": [0.0,0.0,0.0]
+                },
+                "rig_section_ik": {
+                    "name": "rig_section_humanoid_leg_l",
+                    "direction": [-1,1,1],
+                    "origin": [0.2,0.6,-0.8],
+                    "target": [0.4,0.0,-0.6],
+                    "pole_offset": [0.2,0.0,1.0],
+                    "lengths_base": [0.0,0.5,0.6],
+                    "section_origin": [0.2,0.6,-0.8]
+                },
+                "ability_rig_walk": {
+                    "walk_check_name": "is_walk_back",
+                    "is_input_cap": true,
+                    "input_cap": 0.3
+                },
+                "ability_rig_gallop": {
+                    "name": "rig_gallop",
+                    "priority": 4,
+                    "time": 0.2,
+                    "threshold": 1.2,
+                    "is_root": true,
+                    "walk_check_name": "is_gallop_back"
+                }
+            }
+        }
+    }
+}

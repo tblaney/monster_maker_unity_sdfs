@@ -1,0 +1,51 @@
+{
+    "name": "rig_section_no_joint",
+    "actors": {
+        "point": {
+            "is_local": true
+        },
+        "rig_section_ik": {
+        },
+        "abilities_ticker": {
+        },
+        "ability_idle": {
+            "name": "idle"
+        }
+    },
+    "children": {
+        "effector_root":{
+            "name": "effector_root"
+        },
+        "effector_target_static": {
+            "name": "effector_target_static"
+        },
+        "effector_pole": {
+            "name": "effector_pole"
+        },
+        "arm_mid": {
+            "name": "rig_arm_head",
+            "actors": {
+                "rig_arm": {
+                    "index": 0,
+                    "length": 0.5
+                },
+                "point": {
+                    "is_local": true
+                }
+            },
+            "children": {
+                "rig_arm_bone": {
+                    "name": "bone",
+                    "actors": {
+                        "point": {
+                            "is_local": true
+                        }
+                    }
+                }
+            }
+        },
+        "arm_root": {
+            "inherit_from": "rig_arm_no_joint"
+        }
+    }
+}

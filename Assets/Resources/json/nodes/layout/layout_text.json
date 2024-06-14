@@ -1,0 +1,14 @@
+{
+    "actors":
+    { 
+        "point_layout":{
+        },
+        "layout_text_module":{
+            "font_name": "comic_land"        
+        }
+    },
+    "children":
+    {
+        
+    }
+}

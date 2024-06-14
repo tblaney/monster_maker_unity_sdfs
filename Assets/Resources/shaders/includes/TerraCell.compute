@@ -1,0 +1,13 @@
+﻿
+struct TerraCell
+{
+    float3 position;
+    int x, z;
+
+    int prefabId;
+    int colorId;
+
+    float groundHeight;
+};
+
+RWStructuredBuffer<TerraCell> cells;

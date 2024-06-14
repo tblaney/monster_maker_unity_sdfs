@@ -1,0 +1,114 @@
+{
+    "name": "player_main",
+    "inherit_from": "player_mesh",
+    "actors": {
+        "point": {
+            "position": [100.0,50.0,100.0]
+        },
+        "location_setter": {
+            "location_name": "player_spawn"
+        },
+        "anim_module": {
+            "layers": [
+                "base"
+            ],
+            "state": {
+                "animations": [
+                    {
+                        "name": "grounded_unarmed",
+                        "layers": [
+                            "base"
+                        ]
+                    }
+                ]
+            }
+        },
+        "capsule_collider_module": {
+            "height": 1.1,
+            "radius": 0.4,
+            "center": [0.0, 0.55, 0.0],
+            "is_trigger": false,
+            "physic_material": "physic_material_smooth"
+        },
+        "body_module": {
+            "mass": 1.0,
+            "drag": 0.0,
+            "angular_drag": 0.05,
+            "is_gravity": true,
+            "is_kinematic": false,
+            "interpolate": "none",
+            "collision": "discrete",
+            "constraints": "rotation"
+        },
+        "body_ticker": {
+            "grounded_threshold": 1.0,
+            "speed_target": 6.0
+        },
+        "input_actor": {
+
+        },
+        "cast_ticker": {
+            "grounded": {
+                "is_update": true,
+                "args": {
+                    "type": "box",
+                    "origin": [0.0, 0.15, 0.0],
+                    "radius": 0.4,
+                    "is_origin_local": true,
+                    "direction": [0.0, -1.0, 0.0],
+                    "extents": [0.5, 0.3, 0.5],
+                    "rotation": [0.0, 0.0, 0.0, 1.0],
+                    "distance": 1.0,
+                    "layer_mask": ["Terrain"]
+                }
+            },
+            "terrain_02": {
+                "is_update": false,
+                "args": {
+                    "type": "sphere",
+                    "is_origin_local": true,
+                    "origin": [0.0, 1.2, 0.8],
+                    "radius": 0.5,
+                    "direction": [0.0, -1.0, 0.0],
+                    "distance": 0.5,
+                    "layer_mask": ["Terrain"]
+                }
+            },
+            "terrain": {
+                "is_update": false,
+                "args": {
+                    "type": "ray",
+                    "is_origin_local": true,
+                    "origin": [0.0, 40.0, 1.0],
+                    "direction": [0.0, -1.0, 0.0],
+                    "distance": 50.0,
+                    "layer_mask": ["Terrain"]
+                }
+            }
+        },
+        "abilities_ticker": {
+            "is_log": true
+        },
+        "ability_idle": {
+            "name": "idle"
+        },
+        "ability_player_locomotion": {
+            "name": "moving",
+            "priority": 1,
+            "y_factor": 10.0,
+            "vertical_speed": 8.0,
+            "is_log": true
+        },
+        "ability_player_falling": {
+            "name": "falling",
+            "priority": 2
+        },
+        "ability_player_jump": {
+            "name": "jump",
+            "priority": 3,
+            "jump_height": 1.5
+        }
+    },
+    "children": {
+    }
+}

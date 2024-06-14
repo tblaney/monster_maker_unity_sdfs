@@ -1,0 +1,11 @@
+{
+    "name": "input",
+    "keys": {
+        "jump": "space"
+    },
+    "axes": {
+        "direction": {
+            
+        }
+    }
+}

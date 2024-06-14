@@ -1,0 +1,22 @@
+{
+    "name": "rig_arm",
+    "actors": {
+        "rig_arm": {
+            "index": 0,
+            "length": 0.5,
+            "is_bones": false
+        },
+        "point": {
+            "is_local": true
+        },
+        "sdf_surface": {
+            "shape_type": "sphere",
+            "blend": 0.2,
+            "color": "#c3bd6e",
+            "radius": 0.1,
+            "scale": [1.0, 1.0, 1.0]
+        }
+    },
+    "children": {
+    }
+}

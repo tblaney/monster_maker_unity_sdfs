@@ -1,0 +1,10 @@
+{
+    "name": "collider_capsule",
+    "is_prefab": true,
+    "prefab_name": "collider_capsule",
+    "actors": {
+        "capsule_collider_module": {
+            
+        }
+    }
+}

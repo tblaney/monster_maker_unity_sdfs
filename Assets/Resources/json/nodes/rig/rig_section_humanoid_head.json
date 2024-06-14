@@ -1,0 +1,94 @@
+{
+    "name": "rig_section_humanoid_head",
+    "inherit_from": "rig_section_head",
+    "actors": {
+        "rig_section_ik": {
+            "name": "rig_section_humanoid_head",
+            "origin": [0.0,0.1,0.2],
+            "target": [0.0,-0.1,0.5],
+            "pole_offset": [0.0,0.0,1.0],
+            "lengths_base": [0.0,0.6,0.4],
+            "is_local_ik": true,
+            "is_bones": true,
+            "is_ik": true
+        },
+        "ability_rig_idle": {
+            "name": "rig_idle",
+            "priority": 2,
+            "is_root": true,
+            "is_target": true,
+            "direction": -1,
+            "height": 0.1
+        }
+    },
+    "children": {
+        "effector_root":{
+            "name": "effector_root",
+            "children": {
+                "rig_ear_r": {
+                    "inherit_from": "rig_section_humanoid_ear",
+                    "actors": {
+                        "rig_section_single": {
+                            "name": "rig_section_humanoid_ear_r",
+                            "direction": [1,1,1]
+                        }
+                    },
+                    "children": {
+                        "arm_root": {
+                            "inherit_from": "rig_arm_no_bone",
+                            "actors": {
+                                "point": {
+                                    "is_local": true,
+                                    "rotation": [-45.0, -45.0, 0.0]
+                                }
+                            }
+                        }
+                    }
+                },
+                "rig_ear_l": {
+                    "inherit_from": "rig_section_humanoid_ear",
+                    "actors": {
+                        "rig_section_single": {
+                            "name": "rig_section_humanoid_ear_l",
+                            "direction": [-1,1,1]
+                        }
+                    },
+                    "children": {
+                        "arm_root": {
+                            "inherit_from": "rig_arm_no_bone",
+                            "actors": {
+                                "point": {
+                                    "is_local": true,
+                                    "rotation": [-45.0, 45.0, 0.0]
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "effector_target_static":{
+            "name": "effector_target_static",
+            "children": {
+                "rig_eye_r": {
+                    "inherit_from": "rig_section_humanoid_eye",
+                    "actors": {
+                        "rig_section_single": {
+                            "name": "rig_section_humanoid_eye_r",
+                            "direction": [1,1,1]
+                        }
+                    }
+                },
+                "rig_eye_l": {
+                    "inherit_from": "rig_section_humanoid_eye",
+                    "actors": {
+                        "rig_section_single": {
+                            "name": "rig_section_humanoid_eye_l",
+                            "direction": [-1,1,1]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

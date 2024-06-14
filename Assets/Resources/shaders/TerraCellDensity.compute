@@ -1,0 +1,147 @@
+﻿#pragma kernel Density
+#include "/includes/FastNoise.compute"
+#include "/includes/TerraDensity.compute"
+#include "/includes/TerraCell.compute"
+
+
+StructuredBuffer<TerraNoise> noises;
+
+static const int numHeights = 2;
+static const int heightIndices[numHeights] = {0, 1};
+static const int indexBiomeActivate = 2;
+
+float seaLevel;
+
+int seed;
+
+// ---------------------------------------------------
+
+float sampleNoise(float x, float y, TerraNoise noise)
+{
+    FNSetSeed(noise.seed);
+    FNSetFrequency(noise.frequency);
+
+    FNSetFractalType(noise.fractalType); // 0 is fbm, 1 is billow, 2 is ridged
+    FNSetFractalOctaves(noise.fractalOctaves);
+    FNSetFractalLacunarity(noise.fractalLacunarity);
+    FNSetFractalGain(noise.fractalGain);
+
+    if (noise.noiseType == 0)
+    {
+        // simplex
+        if (noise.isFractal != 0)
+        {
+            return FNGetSimplexFractal(x, y);
+        } else
+        {
+            return FNGetSimplex(x, y);
+        }
+    } else if (noise.noiseType == 1)
+    {
+        // perlin
+        if (noise.isFractal != 0)
+        {
+            return FNGetPerlinFractal(x, y);
+        } else
+        {
+            return FNGetPerlin(x, y);
+        }
+    } else if (noise.noiseType == 2)
+    {
+        // cubic
+        if (noise.isFractal != 0)
+        {
+            return FNGetCubicFractal(x, y);
+        } else
+        {
+            return FNGetCubic(x, y);
+        }
+    } else if (noise.noiseType == 3)
+    { 
+        // value
+        if (noise.isFractal != 0)
+        {
+            return FNGetValueFractal(x, y);
+        } else
+        {
+            return FNGetValue(x, y);
+        }
+    }
+    return 0;
+}
+float getHeight(float x, float z, TerraNoise noise)
+{
+    float val = sampleNoise(x, z, noise);
+    return seaLevel + noise.offset + val*noise.weight;
+}
+
+// ---------------------------------------------------
+
+[numthreads(numThreads,1,numThreads)]
+void Density (int3 id : SV_DispatchThreadID)
+{
+    if (id.x >= numPointsPerAxis || id.z >= numPointsPerAxis) {
+        return;
+    }
+
+    float3 pos = origin + float3(id.x * spacing, id.y * spacing, id.z * spacing);
+    int index = indexFromCoord2(id.x,id.z);
+
+    TerraCell cell;
+    cell.position = pos;
+    cell.x = id.x;
+    cell.z = id.z;
+    cell.prefabId = 0;
+    cell.colorId = 0;
+
+    float heights[numHeights] = {0,0};
+    for (int i = 0; i < numHeights; i++)
+    {
+        int idx = heightIndices[i];
+        heights[i] = getHeight(floor(pos.x), floor(pos.z), noises[idx]);
+    }
+    
+    TerraNoise noiseActivate = noises[indexBiomeActivate];
+    float a = sampleNoise(pos.x, pos.z, noiseActivate);
+    a = (a + 1.0)/2.0;
+    float interval = 1.0/(uint)numHeights;
+    float blendThreshold = interval * 0.3;
+
+    int primaryNoiseIndex = (int)(a/interval);
+    float primaryNoiseStart = interval*primaryNoiseIndex;
+    float distanceToEdge = min(a - primaryNoiseStart, (primaryNoiseStart + interval) - a);
+
+    int secondaryNoiseIndex;
+    if (a - primaryNoiseStart < interval / 2.0) {
+        secondaryNoiseIndex = primaryNoiseIndex - 1 < 0 ? numHeights - 1 : primaryNoiseIndex - 1;
+    } else {
+        secondaryNoiseIndex = (primaryNoiseIndex + 1) % (uint)numHeights;
+    }
+
+    int colorId = 0;
+    if (primaryNoiseIndex == 1)
+    {
+        colorId = 1;
+    }
+
+    float groundHeight = heights[primaryNoiseIndex];
+    float heightOffsetBase = noises[heightIndices[primaryNoiseIndex]].offset;
+
+    if (distanceToEdge < blendThreshold && noises[heightIndices[primaryNoiseIndex]].id >= noises[heightIndices[secondaryNoiseIndex]].id)
+    {
+        float blendFactor = distanceToEdge / blendThreshold;
+
+        groundHeight = lerp(heights[secondaryNoiseIndex], heights[primaryNoiseIndex], blendFactor);
+
+        heightOffsetBase = lerp(noises[heightIndices[secondaryNoiseIndex]].offset, 
+            noises[heightIndices[primaryNoiseIndex]].offset, blendFactor);
+    } 
+
+    
+
+    cell.position = float3(pos.x, groundHeight, pos.z);
+    cell.groundHeight = (int)groundHeight;
+    cell.colorId = 0;
+
+    cells[index] = cell;
+}

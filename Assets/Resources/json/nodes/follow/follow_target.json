@@ -1,0 +1,16 @@
+{
+    "name": "follower",
+    "actors": {
+        "abilities_ticker": {
+        },
+        "ability_idle": {
+            "name": "idle"
+        },
+        "ability_follow": {
+            "name": "follower",
+            "movement_speed": 8.0,
+            "offset": [0.0,0.0,0.0],
+            "target": ""
+        }
+    }
+}

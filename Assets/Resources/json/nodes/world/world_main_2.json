@@ -1,0 +1,25 @@
+{
+    "is_prefab": true,
+    "prefab_name": "world_main",
+    "children": {
+        "plane": {
+            "layer": 6,
+            "actors": {
+                "point": {
+                    "position": [0.0,0.0,0.0],
+                    "scale": [10.0, 1.0, 10.0]
+                }
+            }
+        },
+        "terrain": {
+            "layer": 6,
+            "is_prefab": true,
+            "prefab_name": "world_terrain_01",
+            "children": {
+                "scene_terrain_v1": {
+                    "layer": 6
+                }
+            }
+        }
+    }
+}

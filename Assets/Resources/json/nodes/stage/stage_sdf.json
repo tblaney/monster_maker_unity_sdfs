@@ -1,0 +1,50 @@
+{
+    "is_prefab": false,
+    "inherit_from": "",
+    "actors": { 
+        
+    },
+    "children": {
+        "player": {
+            "inherit_from": "player_sdf",
+            "children": {
+                "sdf_viewer": {
+                    "inherit_from": "sdf_marcher",
+                    "children": {
+                        "rig": {
+                            "inherit_from": "rig_test"
+                        }
+                    }
+                }
+            }
+        },
+        "camera_sdf": {
+            "inherit_from": "camera_sdf"
+        },
+        "input_manager": {
+            "inherit_from": "input_manager"
+        },
+        "scene_loader": {
+            "inherit_from": "scene_loader_overworld",
+            "actors": {
+                "cast_ticker": {
+                    "player_cast": {
+                        "is_update": true,
+                        "args": {
+                            "type": "ray",
+                            "origin": [0.0, 0.0, 0.0],
+                            "direction": [0.0, -1.0, 0.0],
+                            "distance": 1000.0,
+                            "layer_mask": ["Terrain"]
+                        }
+                    }
+                }
+            },
+            "children": {
+                "terra": {
+                    "inherit_from": "terra_gen"
+                }
+            }
+        }   
+    }
+}

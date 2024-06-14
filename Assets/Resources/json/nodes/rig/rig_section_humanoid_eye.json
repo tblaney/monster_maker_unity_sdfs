@@ -1,0 +1,100 @@
+{
+    "name": "rig_section_humanoid_eye",
+    "inherit_from": "rig_section",
+    "actors": {
+        "rig_section_ik": {
+            "name": "rig_section_humanoid_eye",
+            "origin": [0.0,0.0,0.0],
+            "target": [0.2,0.1,0.25],
+            "pole_offset": [1.0,0.0,0.5],
+            "lengths_base": [0.0,0.5,0.5],
+            "is_local_ik": true
+        }
+    },
+    "children": {
+        "arm_end": {
+            "inherit_from": "rig_arm",
+            "actors": {
+                "sdf_surface": {
+                    "shape_type": "sphere",
+                    "blend": 0.2,
+                    "color": "#ffffff",
+                    "radius": 0.12
+                }
+            },
+            "children": {
+                "rig_arm_bone": {
+                    "name": "bone",
+                    "actors": {
+                        "point": {
+                            "is_local": true
+                        },
+                        "sdf_surface": {
+                            "shape_type": "cylinder",
+                            "blend": 0.2,
+                            "color": "#ffffff",
+                            "scale": [1.0, 1.0, 1.0],
+                            "radius": 0.05
+                        }
+                    }
+                }
+            }
+        },
+        "arm_mid": {
+            "inherit_from": "rig_arm",
+            "actors": {
+                "sdf_surface": {
+                    "shape_type": "sphere",
+                    "blend": 0.2,
+                    "color": "#ffffff",
+                    "radius": 0.05
+                }
+            },
+            "children": {
+                "rig_arm_bone": {
+                    "name": "bone",
+                    "actors": {
+                        "point": {
+                            "is_local": true
+                        },
+                        "sdf_surface": {
+                            "shape_type": "cylinder",
+                            "blend": 0.2,
+                            "color": "#ffffff",
+                            "scale": [1.0, 1.0, 1.0],
+                            "radius": 0.05
+                        }
+                    }
+                }
+            }
+        },
+        "arm_root": {
+            "inherit_from": "rig_arm",
+            "actors": {
+                "sdf_surface": {
+                    "shape_type": "sphere",
+                    "blend": 0.2,
+                    "color": "#ffffff",
+                    "radius": 0.05
+                }
+            },
+            "children": {
+                "rig_arm_bone": {
+                    "name": "bone",
+                    "actors": {
+                        "point": {
+                            "is_local": true
+                        },
+                        "sdf_surface": {
+                            "shape_type": "cylinder",
+                            "blend": 0.2,
+                            "color": "#ffffff",
+                            "scale": [1.0, 1.0, 1.0],
+                            "radius": 0.05
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

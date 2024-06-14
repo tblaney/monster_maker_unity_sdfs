@@ -1,0 +1,16 @@
+{
+    "actors": {
+        "rig": {
+            "args": {
+                "scale": [0.8, 0.8, 0.8],
+                "scale_bones": [1.0, 1.0, 1.0]
+            },
+            "is_random": true
+        }
+    },
+    "children": {
+        "rig_section_front": {
+            "inherit_from": "rig_section_quadripedal"
+        }
+    }
+}

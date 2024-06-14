@@ -1,0 +1,27 @@
+{
+    "actors":
+    { 
+        "point": {
+            "is_local": true,
+            "rotation": [36.0, 0.0, 0.0]
+        },
+        "camera_follow_ticker": {
+            "smoothness": 8.0
+        }
+    },
+    "children":
+    {
+        "camera": {
+            "actors": {
+                "point": {
+                    "is_local": true,
+                    "position": [0.0, 0.0, -20.0]
+                },
+                "camera_module": {
+                    "fov": 22.0,
+                    "is_main": true
+                }
+            }
+        }
+    }
+}

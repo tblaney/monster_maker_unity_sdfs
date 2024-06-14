@@ -1,0 +1,14 @@
+{
+    "inherit_from": "camera",
+    "actors":
+    { 
+        "camera_module": {
+            "fov": 22.0,
+            "is_main": true
+        }
+    },
+    "children":
+    {
+        
+    }
+}

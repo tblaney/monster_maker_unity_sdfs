@@ -1,0 +1,18 @@
+{
+    "is_prefab": false,
+    "inherit_from": "",
+    "actors": { 
+        
+    },
+    "children": {
+        "scene_loader": {
+            "inherit_from": "scene_loader_menu",
+            "actors": {
+
+            }
+        },
+        "camera_start": {
+            "inherit_from": "camera_start"
+        }
+    }
+}

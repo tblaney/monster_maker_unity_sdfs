@@ -1,0 +1,6 @@
+{
+    "name": "outlandia",
+    "stage_setup": "setup",
+    "stage_start": "sdf",
+    "gravity": -15.0
+}

@@ -1,0 +1,16 @@
+{
+    "is_prefab": true,
+    "prefab_name": "world_main",
+    "children": {
+        "terrain": {
+            "layer": 6,
+            "is_prefab": true,
+            "prefab_name": "world_terrain_01",
+            "children": {
+                "scene_terrain_v1": {
+                    "layer": 6
+                }
+            }
+        }
+    }
+}

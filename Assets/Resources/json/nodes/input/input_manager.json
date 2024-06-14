@@ -1,0 +1,11 @@
+{
+    "name": "input_manager",
+    "actors": {
+        "input_ticker": {
+            "keys": {
+                "select":"e",
+                "jump": "space"
+            }
+        }
+    }
+}

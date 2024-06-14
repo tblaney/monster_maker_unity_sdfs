@@ -1,0 +1,34 @@
+{
+    "name": "rig_section_humanoid_ear",
+    "inherit_from": "rig_section_singleton",
+    "actors": {
+        "rig_section_single": {
+            "name": "rig_section_humanoid_ear",
+            "origin": [0.25,0.1,0.0],
+            "target": [1.0,0.1,-1.0]
+        },
+        "ability_rig_idle": {
+            "name": "rig_idle",
+            "priority": 2,
+            "is_root": false,
+            "is_target": true,
+            "direction": -1,
+            "height": 0.1,
+            "axes": "z"
+        }
+    },
+    "children": {
+        "arm_root": {
+            "inherit_from": "rig_arm_no_bone",
+            "actors": {
+                "sdf_surface": {
+                    "shape_type": "cube",
+                    "blend": 0.2,
+                    "color": "#c3bd6e",
+                    "radius": 0.08,
+                    "scale": [0.02, 0.08, 0.02]
+                }
+            }
+        }
+    }
+}

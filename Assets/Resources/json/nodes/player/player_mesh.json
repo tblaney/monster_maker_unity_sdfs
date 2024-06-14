@@ -1,0 +1,7 @@
+{
+    "name": "player_mesh",
+    "is_prefab": true,
+    "prefab_name": "player_mesh",
+    "actors": {
+    }
+}

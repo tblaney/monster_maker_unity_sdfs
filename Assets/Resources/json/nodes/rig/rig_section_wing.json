@@ -1,0 +1,91 @@
+{
+    "name": "rig_section_wind",
+    "inherit_from": "rig_section",
+    "actors": {
+        "rig_section_ik": {
+            "name": "rig_section_wind",
+            "origin": [0.2,0.0,0.1],
+            "target": [1.4,0.4,0.0],
+            "pole_offset": [0.0,0.0,-1.0],
+            "lengths_base": [0.0,0.7,0.7]
+        },
+        "ability_rig_idle": {
+            "name": "rig_idle",
+            "priority": 2,
+            "is_root": true,
+            "is_target": true,
+            "direction": -1,
+            "height": 0.03,
+            "axes": "yz",
+            "is_movement_effected": false
+        },
+        "ability_rig_walk": {
+            "name": "rig_walk",
+            "priority": 3,
+            "time": 0.2,
+            "threshold": 0.4,
+            "height": 0.2,
+            "is_root": true,
+            "is_walk_check": true,
+            "walk_check_name": "is_walk_wings"
+        }
+    },
+    "children": {
+        "arm_end": {
+            "inherit_from": "rig_arm_no_bone",
+            "actors": {
+                "sdf_surface": {
+                    "color": "#8a6f57"                
+                }
+            }
+        },
+        "arm_mid": {
+            "inherit_from": "rig_arm",
+            "actors": {
+                "sdf_surface": {
+                    "color": "#8a6f57",
+                    "has_collider": true                
+                }
+            },
+            "children": {
+                "rig_arm_bone": {
+                    "actors": {
+                        "sdf_surface": {
+                            "color": "#8a6f57",
+                            "shape_type": "cube",
+                            "blend": 0.2,
+                            "blend_mode": "union_smooth",
+                            "radius": 0.05,
+                            "scale": [0.4, 0.1, 0.001]                        
+                        }
+                    }
+                }
+            }
+        },
+        "arm_root": {
+            "inherit_from": "rig_arm",
+            "actors": {
+                "sdf_surface": {
+                    "color": "#8a6f57",
+                    "blend_mode": "union_smooth",
+                    "blend": 0.2,
+                    "has_collider": true                
+                }
+            },
+            "children": {
+                "rig_arm_bone": {
+                    "actors": {
+                        "sdf_surface": {
+                            "color": "#8a6f57",
+                            "shape_type": "cylinder",
+                            "blend": 0.2,
+                            "blend_mode": "union_smooth",
+                            "radius": 0.1,
+                            "scale": [0.4, 0.1, 0.001]                        
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

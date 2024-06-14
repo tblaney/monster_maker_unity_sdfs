@@ -1,0 +1,13 @@
+{
+    "inherit_from": "layout_button",
+    "actors":
+    { 
+        "layout_image_module":{
+
+        }
+    },
+    "children":
+    {
+        
+    }
+}

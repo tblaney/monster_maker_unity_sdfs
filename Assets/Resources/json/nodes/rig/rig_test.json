@@ -1,0 +1,13 @@
+{
+    "name": "rig_test",
+    "layer": 7,
+    "is_pass_layer_on": true,
+    "children": {
+        "rig_quad": {
+            "inherit_from": "rig_quadripedal"
+        },
+        "rig_quad_back": {
+            "inherit_from": "rig_quadripedal_back"
+        }
+    }
+}
